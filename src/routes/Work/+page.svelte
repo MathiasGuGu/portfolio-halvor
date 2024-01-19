@@ -6,7 +6,7 @@
 <div class="w-[80%] justify-center text-center m-auto">
   <h1 class="text-6xl w-[260px] mb-20">Projects & Work</h1>
 
-  <section>
+  <section class="grid grid-cols-3 gap-3 my-10">
     {#each data.summaries as {projectNr, cover, slug}}
     <a href="/Work/{slug}">
       <p>{projectNr}</p>
