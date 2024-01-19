@@ -39,23 +39,23 @@
   </div>
 </div>
 
-<section class="w-[80%] m-auto flex flex-row justify-between">
-  <div class="w-[50%]">
+<section class="w-[80%] m-auto flex flex-col lg:flex-row justify-center lg:justify-between">
+  <div class="m-auto lg:m-0 w-[80%] md:w-[60%] lg:w-[50%]">
     <p class="mb-8">My name is Halvor Tandberg Flåto, im an 22 year old graphic designer with years of experience. My passion is creating extrodinary visual experiences, and help brands and individuals express their true self through functional and innovative design.</p>
 
     <p class="mt-8 mb-16">You can find out more about my work on these platforms:</p>
 
-    <div class="flex flex-row">
+    <div class="flex flex-row justify-center lg:justify-normal m-auto lg:m-0">
       <img src="./behance.png" alt="behance logo" class="w-[60px] h-[60px] mr-5"/>
       <img src="./instagram.png" alt="instagram logo" class="w-[60px] h-[60px] mr-5"/>
     </div>
   </div>
-  <img src="./halvor.png" alt="Owner image"/>
+  <img src="./halvor.png" alt="Owner image" class="mt-16 lg:mt-0 w-[60%] lg:w-[30%] xl:w-[25%] mx-auto lg:mx-0"/>
 </section>
 
 <div class="justify-center text-center mt-16 mb-12">
-  <div class="w-[60%] m-auto">
-    <h1 class="text-8xl">Let's work</h1>
+  <div class="w-[80%] lg:w-[60%] m-auto">
+    <h1 class="text-5xl md:text-8xl">Let's work</h1>
     <h2 class="font-bold text-[#321BDC] text-lg">Contact:</h2>
     <p>If you have a project to discuss please contact: </p>
     <p>Halvortandbergflato@gmail.com</p>
