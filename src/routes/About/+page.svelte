@@ -1,7 +1,3 @@
-<script>
-  import "../app.css";
-  import TopScroll from "./topScroll.svelte";
-</script>
 
 <style>
   .sliding-container {
@@ -32,24 +28,7 @@
   }
 </style>
 
-<section class="w-[80%] m-auto">
-  <div class="flex flex-col lg:flex-row justify-between">
-    <div class="text-xl sm:text-3xl md:text-5xl">
-      <h1 class="my-6">Graphic designer</h1>
-      <h2 class="my-6">Web designer</h2>
-      <h2 class="my-6">UI / UX</h2>
-      <h2 class="my-6">Brand identity</h2>
-      <h2 class="my-6">Photography</h2>
-      <h2 class="my-6">Product design</h2>
-    </div>
-  
-    <img src="/home_image.png" alt="logo"/>
-  </div>
-  
-  <p class="w-[80%] lg:w-[50%] my-6">My passion is helping brands and individuals express their true self through innovative and functional design.</p>
-</section>
-
-<div class="sliding-container my-28">
+<div class="sliding-container my-16">
   <div class="sliding-image">
     <div class="sliding-space">
       <img src="/Group.png" alt="Main text"/>
@@ -60,13 +39,19 @@
   </div>
 </div>
 
-<!--<section></section>-->
+<section class="w-[80%] m-auto flex flex-row justify-between">
+  <div class="w-[50%]">
+    <p class="mb-8">My name is Halvor Tandberg Flåto, im an 22 year old graphic designer with years of experience. My passion is creating extrodinary visual experiences, and help brands and individuals express their true self through functional and innovative design.</p>
 
-<div class="justify-center text-center">
-  <a href="./Work" class="m-auto text-[#ffffff] font-semibold bg-[#321BDC] py-2 px-10 rounded-full">
-    View all
-  </a>
-</div>
+    <p class="mt-8 mb-16">You can find out more about my work on these platforms:</p>
+
+    <div class="flex flex-row">
+      <img src="./behance.png" alt="behance logo" class="w-[60px] h-[60px] mr-5"/>
+      <img src="./instagram.png" alt="instagram logo" class="w-[60px] h-[60px] mr-5"/>
+    </div>
+  </div>
+  <img src="./halvor.png" alt="Owner image"/>
+</section>
 
 <div class="justify-center text-center mt-16 mb-12">
   <div class="w-[60%] m-auto">
@@ -78,5 +63,3 @@
     <img src="/logo.png" alt="logo" class="m-auto my-10"/>
   </div>
 </div>
-
-<TopScroll />
