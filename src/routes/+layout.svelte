@@ -4,7 +4,7 @@
 
 <header class="flex flex-row justify-between m-8">
   <div class="mb-10">
-    <a href="/"><img src="./Intro_logo.png" alt="logo" class="w-[120px]"/></a>
+    <a href="/"><img src="/Intro_logo.png" alt="logo" class="w-[120px]"/></a>
   </div>
   
   <nav>

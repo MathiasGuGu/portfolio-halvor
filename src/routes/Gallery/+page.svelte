@@ -2,15 +2,15 @@
   import TopScroll from "../topScroll.svelte";
 </script>
 
-<div class="w-[80%] m-auto">
+<div class="w-[80%] md:w-[60%] xl:w-[80%] m-auto">
   <h1 class="my-10 text-center">My passion is helping brands and individuals express their true self, through innovative and creative communication</h1>
 
   <section class="my-10 justify-between">
-    <div class="flex flex-row gap-5">
+    <div class="flex flex-col xl:flex-row gap-5">
       <div class="flex flex-col gap-1">
         <img src="./photo_1.png" alt="first picture" class="mb-[20px]"/>
         <img src="./photo_3.png" alt="third picture" class="mb-[20px]"/>
-        <div class="flex flex-row justify-between">
+        <div class="flex flex-col xl:flex-row justify-between">
           <img src="./photo_7.png" alt="seventh picture" class="mb-[20px]"/>
           <img src="./photo_6.png" alt="sixth picture" class="mb-[20px]"/>
         </div>
@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <div class="flex flex-row gap-5">
+    <div class="flex flex-col xl:flex-row gap-5">
       <div class="flex flex-col gap-1">
         <img src="./photo_8.png" alt="eighth picture" class="mb-[20px]"/>
         <img src="./photo_10.png" alt="tenth picture" class="mb-[20px]"/>
@@ -40,8 +40,8 @@
 </div>
 
 <div class="justify-center text-center mt-16 mb-12">
-  <div class="w-[60%] m-auto">
-    <h1 class="text-8xl">Let's work</h1>
+  <div class="w-[80%] lg:w-[60%] m-auto">
+    <h1 class="text-5xl md:text-8xl">Let's work</h1>
     <h2 class="font-bold text-[#321BDC] text-lg">Contact:</h2>
     <p>If you have a project to discuss please contact: </p>
     <p>Halvortandbergflato@gmail.com</p>

@@ -60,7 +60,20 @@
   </div>
 </div>
 
-<!--<section></section>-->
+<section class="w-[80%] xl:w-[75%] mx-auto my-12 flex flex-col xl:flex-row gap-3 lg:gap-6 xl:gap-3">
+  <div class="justify-center m-auto">
+    <img src="/images/image_1.png" alt="first home image" class="mb-3 xl:mb-4">
+    <img src="/images/image_2.png" alt="second home image">
+  </div>
+
+  <div class="justify-center m-auto">
+    <img src="/images/image_3.png" alt="third home image" class="mb-3 xl:mb-8">
+    <div class="flex flex-col lg:flex-row lg:gap-3 xl:justify-between">
+      <img src="/images/image_4.png" alt="fourth home image" class="mb-3 xl:mb-0">
+      <img src="/images/image_5.png" alt="fifth home image">
+    </div>
+  </div>
+</section>
 
 <div class="justify-center text-center">
   <a href="./Work" class="m-auto text-[#ffffff] font-semibold bg-[#321BDC] py-2 px-10 rounded-full">
@@ -69,8 +82,8 @@
 </div>
 
 <div class="justify-center text-center mt-16 mb-12">
-  <div class="w-[60%] m-auto">
-    <h1 class="text-8xl">Let's work</h1>
+  <div class="w-[80%] lg:w-[60%] m-auto">
+    <h1 class="text-5xl md:text-8xl">Let's work</h1>
     <h2 class="font-bold text-[#321BDC] text-lg">Contact:</h2>
     <p>If you have a project to discuss please contact: </p>
     <p>Halvortandbergflato@gmail.com</p>
