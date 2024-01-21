@@ -4,7 +4,7 @@
 
 <div class="w-[80%] m-auto">
   <section class="flex flex-col-reverse lg:flex-row justify-center lg:justify-between mb-10">
-    <img src={data.subject.cover.src} alt={data.subject.cover.alt} class="w-[80%] lg:w-[40%] xl:w-[45%] mx-auto lg:mx-0"/>
+    <img src={data.subject.cover.src} alt={data.subject.cover.alt} class="w-[80%] lg:w-[40%] xl:w-[45%] mx-auto lg:mx-0 object-cover"/>
   
     <div class="w-[80%] lg:w-[55%] xl:w-[45%] mx-auto lg:mx-0 mb-5">
       <h1 class="text-2xl font-light">{data.subject.projectNr}</h1>
@@ -14,7 +14,7 @@
   </section>
   
   <section  class="mx-auto lg:mx-0 flex flex-col-reverse lg:flex-row-reverse justify-between my-10">
-    <img src={data.subject.second.src} alt={data.subject.second.alt} class="w-[30%] xl:w-[25%] mx-auto lg:mx-0 {!data.subject.second.src && "hidden"}">
+    <img src={data.subject.second.src} alt={data.subject.second.alt} class="w-[30%] xl:w-[25%] mx-auto lg:mx-0 mt-5 object-contain {!data.subject.second.src && "hidden"}">
 
     <div class="w-[80%] lg:w-[68%] xl:w-[60%] mx-auto lg:mx-0">
       <h3 class="font-semibold">{data.subject.info}</h3>
