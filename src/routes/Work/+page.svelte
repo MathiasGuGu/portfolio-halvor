@@ -4,7 +4,7 @@
 </script>
 
 <div class="w-[80%] justify-center text-center m-auto">
-  <h1 class="text-6xl w-[260px] mb-20">Projects & Work</h1>
+  <h1 class="text-6xl w-[260px] mb-20 font-bold">Projects & Work</h1>
 
   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 text-left">
     {#each data.summaries as {projectNr, cover, slug}}
