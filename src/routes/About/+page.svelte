@@ -46,8 +46,13 @@
     <p class="mt-8 mb-16">You can find out more about my work on these platforms:</p>
 
     <div class="flex flex-row justify-center lg:justify-normal m-auto lg:m-0">
-      <img src="./behance.png" alt="behance logo" class="w-[60px] h-[60px] mr-5"/>
-      <img src="./instagram.png" alt="instagram logo" class="w-[60px] h-[60px] mr-5"/>
+      <a href="https://www.behance.net/gallery/155518961/Portfolio">
+        <img src="./behance.png" alt="behance logo" class="w-[60px] h-[60px] mr-5"/>
+      </a>
+
+      <a href="https://www.instagram.com/lagetavhalvor?igsh=cDQ1dHljeXplbjI0&utm_source=qr">
+        <img src="./instagram.png" alt="instagram logo" class="w-[60px] h-[60px] mr-5"/>
+      </a>
     </div>
   </div>
   <img src="./halvor.png" alt="Owner image" class="mt-16 lg:mt-0 w-[60%] lg:w-[30%] xl:w-[25%] mx-auto lg:mx-0"/>
